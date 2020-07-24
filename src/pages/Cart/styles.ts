@@ -1,6 +1,10 @@
 import styled from 'styled-components/native';
 import { FlatList } from 'react-native';
 
+interface ProductProps {
+  quantity: number;
+}
+
 export const Container = styled.SafeAreaView`
   flex: 1;
   align-items: center;
